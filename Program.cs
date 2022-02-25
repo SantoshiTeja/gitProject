@@ -13,7 +13,7 @@ namespace asyncexample
             fun1();
             fun2();
             string name ;
-            Console.WriteLine("Enter ur name");
+            Console.WriteLine("Enter your the name updated");
             name =  Console.ReadLine();
             //Console.Read();
 
@@ -21,13 +21,13 @@ namespace asyncexample
         }
         static async void fun1()
         {
-            await Task.Delay(20000);
-            Console.WriteLine("Downloadind first file");
+            await Task.Delay(200000);
+            Console.WriteLine("Downloadind first file....");
         }
         static async void fun2()
         {
             await Task.Delay(20000);
-            Console.WriteLine("Dowlaoding secound file");
+            Console.WriteLine("Dowlaoding secound file...");
         }
     }
 }
